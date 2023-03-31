@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <form>
+            <div class="screen">
+                <div class="user-input" type="text" id="input"></div>
+                <div class="result" type="text" id="result"></div>
+            </div>
+            <button title="delete" type="button" class="del" value="del"><img src="./images/icons8-delete-24.png" alt=""></button>
+            <div class="buttons">
+                <button type="button" id="clear" value="C">C</button>
+                <button type="button" id="brackets" value="()">()</button>
+                <button type="button" id="percentage" value="%">%</button>
+                <button type="button" id="devide" value="&#247" data-operator>&#247</button>
+                <button type="button" value="7" data-number>7</button>
+                <button type="button" value="8" data-number>8</button>
+                <button type="button" value="9" data-number>9</button>
+                <button type="button" id="multiply" value="&#215" data-operator>&#215</button>
+                <button type="button" value="4" data-number>4</button>
+                <button type="button" value="5" data-number>5</button>
+                <button type="button" value="6" data-number>6</button>
+                <button type="button" id="subtract" value="-" data-operator>-</button>
+                <button type="button" value="1" data-number>1</button>
+                <button type="button" value="2" data-number>2</button>
+                <button type="button" value="3" data-number>3</button>
+                <button type="button" id="addition" value="+" data-operator>+</button>
+                <button type="button" value="+/-" id="negative">+/-</button>
+                <button type="button" value="0" data-number>0</button>
+                <button type="button" value="." class="decimal">.</button>
+                <button type="button" id="equal" value="=">=</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+
+</html>

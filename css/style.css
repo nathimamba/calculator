@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3f9ff;
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 450px;
+    border-radius: 10px;
+    background: #3a4452;
+}
+
+.screen {
+    border: 0;
+    outline: 0;
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: -8px, -8px -15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buttons button {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: -8px, -8px -15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: grey;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border-top: 3px solid peachpuff;
+    margin-top: 60px;
+}
+
+.screen {
+    border: #fff solid;
+    margin: 20px 0;
+}
+
+.screen {
+    text-align: right;
+    flex: 1;
+    font-size: 35px;
+    box-shadow: none;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#clear {
+    color: crimson;
+}
+
+#brackets,
+#multiply,
+#percentage,
+#devide,
+#subtract,
+#addition {
+    color: peru;
+}
+
+#equal {
+    background: peru;
+    color: black;
+}
+
+.del {
+    background-color: transparent;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+.user-input {
+    min-height: 32px;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.result {
+    min-height: 64px;
+    font-size: 40px;
+    margin: 50px 5px;
+    color: peachpuff;
+}
